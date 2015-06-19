@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+html(lang="es")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+		link(rel="stylesheet", href="estilos.css")
+		title 
+	body
+		#slider
+			- for (var i=1; i<=4; i++)
+				section
+					h2 Seccion #{i}
+					img(src="img/slide#{i}.jpg")
+					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, est, adipisci. Minus maxime vitae, et amet dicta. Provident vel architecto ipsa natus expedita beatae sed aliquid aspernatur, praesentium autem nemo.
+
+	script(src="//code.jquery.com/jquery-1.11.3.min.js")
+	script(src="scripts.js")
